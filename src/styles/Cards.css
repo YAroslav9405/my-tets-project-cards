@@ -1,0 +1,41 @@
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-holder {
+    padding: 20px;
+}
+
+.link-wrapper {
+    margin-bottom: 10px;
+}
+
+.product-name {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.product-name.price{
+    color: red;
+}
+
+.card-wrapper {
+  margin: 0 10px 10px;
+  border: 2px solid rgb(168, 160, 114);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card-wrapper:hover {
+    cursor: pointer;
+    border: 2px solid rgb(211, 187, 50)
+}
+
+.main-img {
+    width: 100%;
+    max-width: 350px;
+}
